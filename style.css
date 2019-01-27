@@ -1,109 +1,109 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html, body, .capa{
-    height: 100%;
-}
-
-.capa {
-    display: table;
-    width: 100%;
-    background: url('https://i0.wp.com/westernslopewebdesignco.com/wp-content/uploads/2016/03/Blurred-Background-Sunset-3c-Free.jpg?ssl=1') no-repeat;
-    background-position: bottom;
-}
-
-#logo{
-    color: rgb(2, 2, 161);
-}
-
-#logo span{
-    color: rgb(196, 24, 24);
-}
-
-.texto-capa{
-    text-align: center;
-    font-size: 136px;
-    font-family: 'Roboto', sans-serif;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#vestibulares {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    list-style-type: none;
-    font-size: 30px;
-}
-
-#vestibulares li {
-    float: left;
-    margin: 20px;
-}
-
-.conunter-button {
-    text-decoration: none;
-    transition: all .2s ease-in-out;
-    color: rgb(22, 95, 155);
-}
-
-.conunter-button:hover {
-    font-size: 36px;
-    color: rgb(54, 139, 209);
-}
-
-#explic-cron{
-    font-size: 20px;
-    color: rgb(96, 97, 97);
-}
-
-#cron{
-    margin-top: 20px;
-    color: rgb(143, 33, 33);
-    font-size: 64px;
-}
-
-/* -- Small devices (landscape phones, 576px and up) -- */
-@media screen and (max-width: 576px) { 
-    .texto-capa{
-        font-size: 80px;
-    }
-    #vestibulares li {
-        margin: 10px;
-    }
-    #vestibulares{
-        font-size: 24px;
-    }
-    #cron{
-        font-size: 32px;
-    }    
-}
-
-/* -- Medium devices (tablets, 768px and up) -- */
-@media screen and (min-width: 577px) { 
-    .texto-capa{
-        font-size: 112px;
-    }
-    #vestibulares li {
-        margin: 10px;
-    }
-    #cron{
-        font-size: 48px;
-    }
-}
-
-/* -- Large devices (desktops, 992px and up) -- */
-@media screen and (min-width: 769px) { 
-    .texto-capa{
-        font-size: 121px;
-    }
-}
-
-/* -- Extra large devices (large desktops, 1200px and up) -- */
-@media screen and (min-width: 993px) { 
-    .texto-capa{
-        font-size: 136px;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .capa{
+    height: 100%;
+}
+
+.capa {
+    display: table;
+    width: 100%;
+    background: url('https://i0.wp.com/westernslopewebdesignco.com/wp-content/uploads/2016/03/Blurred-Background-Sunset-3c-Free.jpg?ssl=1') no-repeat;
+    background-position: bottom;
+}
+
+#logo{
+    color: rgb(2, 2, 161);
+}
+
+#logo span{
+    color: rgb(196, 24, 24);
+}
+
+.texto-capa{
+    text-align: center;
+    font-size: 136px;
+    font-family: 'Roboto', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#vestibulares {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+#vestibulares li {
+    float: left;
+    margin: 20px;
+}
+
+.conunter-button {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: rgb(22, 95, 155);
+}
+
+.conunter-button:hover {
+    font-size: 36px;
+    color: rgb(54, 139, 209);
+}
+
+#explic-cron{
+    font-size: 20px;
+    color: rgb(96, 97, 97);
+}
+
+#cron{
+    margin-top: 20px;
+    color: rgb(143, 33, 33);
+    font-size: 64px;
+}
+
+/* -- Small devices (landscape phones, 576px and up) -- */
+@media screen and (max-width: 576px) { 
+    .texto-capa{
+        font-size: 80px;
+    }
+    #vestibulares li {
+        margin: 10px;
+    }
+    #vestibulares{
+        font-size: 24px;
+    }
+    #cron{
+        font-size: 32px;
+    }    
+}
+
+/* -- Medium devices (tablets, 768px and up) -- */
+@media screen and (min-width: 577px) { 
+    .texto-capa{
+        font-size: 112px;
+    }
+    #vestibulares li {
+        margin: 10px;
+    }
+    #cron{
+        font-size: 48px;
+    }
+}
+
+/* -- Large devices (desktops, 992px and up) -- */
+@media screen and (min-width: 769px) { 
+    .texto-capa{
+        font-size: 121px;
+    }
+}
+
+/* -- Extra large devices (large desktops, 1200px and up) -- */
+@media screen and (min-width: 993px) { 
+    .texto-capa{
+        font-size: 136px;
+    }
 }
